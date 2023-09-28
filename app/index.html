@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./../assets/styles/icons/index.css"></link>
+    <title>Bitcoin Monitor</title>
+</head>
+
+<body>
+    <h3 class="heading">Bitcoin Monitor APP</h3>
+    <div class="parent">
+        <div class="section">
+            <h4>Current Peice</h4> <h2>:</h2> <h4 id="main-price">Loading...</h4>
+        </div>
+        <div class="section">
+            <h4>The price you are monitoring</h4> <h2>:</h2> <h4 id="set-price">You have not set any price yet</h4>
+        </div>
+        <div class="inp">
+            <input class="w3-input w3-border" type="number" id="setval">
+            <button id="btn" onclick="getVal()" class="button">Update</button> 
+        </div>
+    </div>
+</body>
+<!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+<script src="../JS/index.js"></script>
+</html>

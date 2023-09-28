@@ -1,0 +1,19 @@
+{
+  "name": "bitcoin_monitor",
+  "version": "1.0.0",
+  "description": "App to optimize images",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron .",
+    "dev": "nodemon --exec electron ."
+  },
+  "author": "Biswarup Mukherjee",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "electron": "^20.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
